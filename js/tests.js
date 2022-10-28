@@ -9,12 +9,12 @@ describe('Las variables en Javascript', () => {
   })
   it('pueden contener números', () => {
     // Añade la línea que falta
-
+const b = 14.64
     expect(b).to.equal(14.64);
   })
   it('pueden contener booleanos', () => {
     // Añade la línea que falta
-
+const c = false
     expect(c).to.equal(false);
   })
 })
